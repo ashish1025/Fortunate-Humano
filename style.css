@@ -1,0 +1,31 @@
+table {
+	border-collapse:collapse;
+	width: 30%;
+	font-size: 100%;
+}
+  
+th, tr, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #707070;
+}   
+
+#diceNumberHolder{
+	border: 5px outset lightblue;
+  background-color: lightblue;    
+  text-align: center;
+  width: 8%;
+}
+/* #playerNameHolder{
+	border: 5px outset lightblue;
+  background-color: lightblue;    
+  text-align: center;
+  width: 8%;
+} */
+.child {
+	display: inline-block;
+	padding: 1%;
+	vertical-align: middle;
+	background-color: lightblue; 
+  }
+

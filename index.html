@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Fortunate Humano</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h2>Welcome to the fortunate Humano</h2>
+        <button id="startButton" onClick="startButtonHandler()  ">
+            Start the Game
+        </button>
+        <table>
+            <tr>
+                <th>Box Number</th>
+                <th>Player 1</th>
+                <th>Player 2</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td id="p01"></td>
+                <td id="p11"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="p02"></td>
+                <td id="p12"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="p03"></td>
+                <td id="p13"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td id="p04"></td>
+                <td id="p14"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td id="p05"></td>
+                <td id="p15"></td>
+            </tr>
+        </table>
+
+        <div>
+            <div class="child">
+                <button
+                    id="diceButton"
+                    type="button"
+                    onclick="clickHandler(event)"
+                >
+                    Click for fun
+                </button>
+            </div>
+            <div class="child" id="playerNameHolder">player1 plays now</div>
+        </div>
+        <div>
+            <div id="score" class="child">score:</div>
+            <div id="player1" class="child">player1</div>
+            <div id="player2" class="child">player2</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
